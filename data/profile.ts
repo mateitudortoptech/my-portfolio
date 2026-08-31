@@ -19,9 +19,9 @@ export const site = {
    * Leave empty rather than inventing URLs or addresses.
    */
   contact: {
-    email: "",
-    linkedin: "",
-    github: "",
+    email: "" as string,
+    linkedin: "" as string,
+    github: "" as string,
   },
   seo: {
     title: "Matei Tudor | Senior AI & Full-Stack Engineer",
