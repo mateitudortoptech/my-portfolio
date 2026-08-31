@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #05070b;
+  --line: rgba(143, 176, 255, 0.12);
+  --glow: rgba(107, 147, 255, 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: #e8eef8;
+}
+
+body {
+  font-feature-settings: "ss01" on, "cv11" on;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(143, 176, 255, 0.28);
+  color: #f7f9ff;
+}
+
+:focus-visible {
+  outline: 2px solid #8fb0ff;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -40px;
+  z-index: 80;
+  border-radius: 999px;
+  background: #e8eef8;
+  color: #05070b;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.page-shell {
+  background-image:
+    radial-gradient(1200px 500px at 10% -10%, rgba(107, 147, 255, 0.16), transparent 55%),
+    radial-gradient(900px 420px at 90% 0%, rgba(155, 140, 255, 0.1), transparent 50%),
+    linear-gradient(to right, rgba(143, 176, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(143, 176, 255, 0.035) 1px, transparent 1px);
+  background-size: auto, auto, 72px 72px, 72px 72px;
+  background-attachment: fixed;
+}
+
+.glass-nav {
+  background: rgba(5, 7, 11, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hairline {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(143, 176, 255, 0.35),
+    transparent
+  );
+}
+
+.node-glow {
+  box-shadow: 0 0 0 1px rgba(143, 176, 255, 0.18), 0 0 24px -8px rgba(107, 147, 255, 0.55);
+}
+
+@keyframes dash-flow {
+  to {
+    stroke-dashoffset: -48;
+  }
+}
+
+.flow-path {
+  stroke-dasharray: 6 10;
+  animation: dash-flow 2.4s linear infinite;
+}
+
+@keyframes ambient {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.04);
+  }
+}
+
+.ambient-orb {
+  animation: ambient 10s ease-in-out infinite;
+}
+
+@media print {
+  .skip-link,
+  header,
+  footer {
+    display: none !important;
+  }
+
+  body,
+  .page-shell {
+    background: #fff !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal,
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .flow-path,
+  .ambient-orb,
+  .animate-drift,
+  .animate-flow,
+  .animate-pulse-line,
+  .animate-fade-up {
+    animation: none !important;
+  }
+}

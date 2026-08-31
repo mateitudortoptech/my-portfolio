@@ -1,0 +1,80 @@
+Matei Tudor
+Senior AI & Full-Stack Engineer
+Bucharest, Romania
+12+ years of experience
+English: Advanced / Fully Working Proficient (C1)
+
+Positioning
+I build intelligent, scalable, production-ready software by combining AI engineering with modern full-stack development, cloud infrastructure, and strong system architecture.
+
+Core technologies
+Python, FastAPI, Django, React, Next.js, TypeScript, Node.js, PostgreSQL, AWS, Azure, GCP, Docker, Kubernetes, LLMs, RAG, AI Agents
+
+--------------------------------------------------
+EXPERIENCE
+--------------------------------------------------
+
+Senior Full Stack Engineer — Techama
+Aug 2024 – Present
+Lugano, Switzerland · Remote
+
+- Architected and delivered scalable full-stack web and SaaS applications using TypeScript, React.js, Next.js, Node.js, Python, and FastAPI.
+- Designed frontend architectures using React.js, Next.js App Router, TypeScript, Tailwind CSS, Redux, and Zustand.
+- Engineered backend services using Node.js, NestJS, Fastify, Python, and FastAPI.
+- Built secure RESTful APIs and GraphQL services.
+- Designed data architectures using PostgreSQL, MongoDB, Redis, Prisma, and Drizzle.
+- Implemented microservices and event-driven architectures.
+- Integrated AI/ML and LLM capabilities using OpenAI APIs, LangChain, RAG pipelines, vector databases, and prompt engineering.
+- Deployed applications on AWS and Azure.
+- Used Docker and Kubernetes for containerization and orchestration.
+- Improved performance through SSR, code splitting, lazy loading, Redis caching, API optimization, and database query tuning.
+- Implemented JWT/OAuth2 authentication and secure application practices.
+
+Full Stack Engineer — Debut Infotech
+April 2018 – July 2024
+Oxford, United Kingdom · Remote
+
+- Delivered full-stack SaaS and enterprise web applications with React, Next.js, and TypeScript.
+- Built backend services with Node.js, NestJS, Fastify, Python, and FastAPI.
+- Implemented REST and GraphQL APIs.
+- Worked with PostgreSQL, MongoDB, and Redis.
+- Contributed to microservices and event-driven architectures.
+- Integrated AI/ML and LLM capabilities, including RAG and vector databases.
+- Deployed on AWS and Azure with Docker and Kubernetes.
+- Focused on performance optimization and application security.
+
+Software Engineer — Moveris
+Aug 2016 – March 2018
+Lubbock, Texas, USA · Hybrid
+
+- Built web applications and internal software for identity verification, fraud prevention, and digital trust workflows.
+- Worked with JavaScript, HTML5, CSS3, Node.js, and Python.
+- Implemented REST APIs and third-party integrations.
+- Maintained relational databases and data migrations.
+- Automated operational work with Python and Bash.
+- Debugged, troubleshot, and maintained production systems using Git and testing practices.
+
+--------------------------------------------------
+EDUCATION
+--------------------------------------------------
+
+Bachelor of Science, Computer Science
+Texas Tech University
+Aug 2012 – May 2016
+Lubbock, Texas, USA
+
+--------------------------------------------------
+SKILLS
+--------------------------------------------------
+
+AI & Intelligent Systems: AI / ML, LLM Applications, AI Agents, RAG, Embeddings, Vector Databases, AI Automation, Prompt Engineering, OpenAI APIs, Claude API, Gemini API, DeepSeek, LangChain, AWS Bedrock, GCP Vertex AI
+
+Full-Stack Engineering: React, Next.js, TypeScript, Node.js, NestJS, Express.js, FastAPI, Django, Flask, REST APIs, GraphQL, WebSockets, Socket.IO
+
+Data & Architecture: PostgreSQL, MongoDB, MySQL, Redis, Prisma, Drizzle ORM, Microservices, SaaS, Multi-Tenant Systems, Event-Driven Architecture, Serverless, System Design
+
+Cloud & DevOps: AWS, Azure, GCP, Docker, Kubernetes, Terraform, Nginx, Vercel, Railway, GitHub Actions, GitLab CI, Jenkins
+
+Frontend: React, Next.js, SvelteKit, Tailwind CSS, Redux, Zustand, TanStack Query, Material UI, Radix UI / shadcn, SSR, SSG
+
+Testing & Security: Jest, Vitest, Cypress, Playwright, Pytest, Unit Testing, Integration Testing, OAuth 2.0, JWT, RBAC, OWASP
