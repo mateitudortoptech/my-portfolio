@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { experience } from "@/data/experience";
 import { education } from "@/data/content";
 import { about, heroStack, site } from "@/data/profile";
@@ -15,9 +16,9 @@ export default function ResumePage() {
     <main id="main" className="bg-mist-50 text-ink-950">
       <div className="mx-auto max-w-3xl px-5 py-12 sm:px-8 sm:py-16 print:py-0">
         <p className="text-sm text-ink-700 print:hidden">
-          <a href="/" className="underline-offset-4 hover:underline">
+          <Link href="/" className="underline-offset-4 hover:underline">
             ← Back to portfolio
-          </a>
+          </Link>
         </p>
         <header className="mt-8 border-b border-ink-950/10 pb-6">
           <h1 className="text-4xl font-medium tracking-tight">{site.name}</h1>

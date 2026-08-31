@@ -2,7 +2,7 @@
 
 Premium personal site for Matei Tudor, Senior AI & Full-Stack Engineer.
 
-Built with Next.js (App Router), TypeScript, React, and Tailwind CSS. Ready for Vercel.
+Built with Next.js (App Router), TypeScript, React, and Tailwind CSS. Hosted on GitHub Pages.
 
 ## Local development
 
@@ -13,12 +13,16 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+## Deploy on GitHub Pages
+
+The site deploys automatically from `main` via `.github/workflows/deploy.yml`.
 
 1. Push this repository to GitHub.
-2. Import the project in Vercel.
-3. Set `NEXT_PUBLIC_SITE_URL` to the production URL (for example `https://your-domain.com`).
-4. Deploy.
+2. In the repo, open **Settings → Pages**.
+3. Set **Source** to **GitHub Actions**.
+4. After the workflow succeeds, the site is live at `https://<user>.github.io/<repo>/`.
+
+This repository publishes to [https://mateitudortoptech.github.io/my-portfolio/](https://mateitudortoptech.github.io/my-portfolio/).
 
 ## Content
 
